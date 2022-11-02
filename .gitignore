@@ -1,0 +1,9 @@
+#Ignore all
+*
+!.gitignore
+#Except Source folder
+!Source/
+#Except 3 files
+!MULTISENSOR_ZB_V1_0_0.isc
+!MULTISENSOR_ZB_V1_0_0_callbacks.c
+!custom_efr32mg21a010f512im32.hwconf
