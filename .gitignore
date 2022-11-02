@@ -1,9 +1,10 @@
 #Ignore all
-*
-!.gitignore
+#*
+#!.gitignore
 #Except Source folder
-!Source/
+#/Source/*
 #Except 3 files
-!MULTISENSOR_ZB_V1_0_0.isc
-!MULTISENSOR_ZB_V1_0_0_callbacks.c
-!custom_efr32mg21a010f512im32.hwconf
+#!MULTISENSOR_ZB_V1_0_0.isc
+#!MULTISENSOR_ZB_V1_0_0_callbacks.c
+#!custom_efr32mg21a010f512im32.hwconf
+/GNU ARM v7.2.1 - Default/*
